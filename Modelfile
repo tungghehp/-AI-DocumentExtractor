@@ -1,0 +1,8 @@
+FROM frob/qwen3.5-instruct:4b
+
+PARAMETER temperature 0.0
+PARAMETER num_ctx 4096
+PARAMETER top_k 10
+PARAMETER top_p 1
+PARAMETER min_p 0.0
+PARAMETER repeat_penalty 1.1
